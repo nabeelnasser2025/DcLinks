@@ -6,33 +6,47 @@
   <title>روابط الاتصال</title>
   <style>
     body {
-      font-family: sans-serif;
-      background-color: #f2f2f2;
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(to bottom, #eee, #dcdcdc);
       text-align: center;
-      padding: 20px;
+      padding: 40px 20px;
+      margin: 0;
     }
+
     h1 {
-      color: #333;
+      color: #222;
+      font-size: 28px;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
     }
+
     .btn {
       display: block;
       width: 90%;
-      margin: 10px auto;
-      padding: 15px;
-      background-color: #261935;
+      max-width: 400px;
+      margin: 15px auto;
+      padding: 15px 20px;
+      background: linear-gradient(135deg, #3e206d, #5b2c89);
       color: white;
       text-decoration: none;
-      border-radius: 10px;
+      border-radius: 12px;
       font-size: 18px;
-      transition: 0.3s;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s, background 0.3s;
     }
+
     .btn:hover {
-      background-color: rgb(69, 160, 73);
+      background: linear-gradient(135deg, #45a049, #57b85e);
+      transform: scale(1.03);
+    }
+
+    .btn:active {
+      transform: scale(0.98);
     }
   </style>
 </head>
 <body>
-  <h1>مرحبا! اختَر طريقة الاتصال</h1>
+  <h1>👋 مرحباً! اختر وسيلة الاتصال المفضلة</h1>
 
   <a class="btn" href="tel:878800818">📞 اتصال مباشر: 878800818</a>
   <a class="btn" href="https://wa.me/9647801234567">💬 واتساب مباشر</a>
